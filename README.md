@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Personal Website – Salma Ashilah
 
 Website ini merupakan **website portofolio pribadi sederhana** yang dibuat sebagai latihan dalam mempelajari dasar-dasar pengembangan web menggunakan **HTML**.
@@ -80,3 +81,6 @@ Project ini dapat dikembangkan lebih lanjut dengan menambahkan:
 Mahasiswa Pendidikan Sistem dan Teknologi Informasi
 
 © 2026 Salma Ashilah
+=======
+
+>>>>>>> 55095fe81a8df014cdc8324c8d3062c2fa73db83
