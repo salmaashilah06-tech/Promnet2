@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌐 Personal Website – Salma Ashilah
 
 Website ini merupakan **website portofolio pribadi sederhana** yang dibuat sebagai latihan dalam mempelajari dasar-dasar pengembangan web menggunakan **HTML**.
