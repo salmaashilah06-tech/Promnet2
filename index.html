@@ -2,46 +2,68 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <h1><span>🌸 𝓅𝑒𝓇𝓈𝑜𝓃𝒶𝓁 𝓌𝑒𝒷𝓈𝒾𝓉𝑒🌸</span></h1>
-    <p>Selamat datang, semoga bisa mengenal saya lebih dalam</p>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body style="background-color: #F8DDEB;">
+    <title>Personal Website</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <nav>
-      <a href="./index.html">Home</a>
-      |
-      <a href="./About.html">About</a>
-      |
-      <a href="./Project.html">Project</a>
-      |
-      <a href="Contact.html">Contact</a>
-      |
-      <a href="history.html">history</a>
-    </nav>
-    <hr />
-    <h2 id="⋆ 𝒽𝒶𝓁𝓁𝑜, 𝒶𝓀𝓊 𝓈𝒶𝓁𝓂𝒶 ⋆">⋆ 𝒽𝒶𝓁𝓁𝑜, 𝒶𝓀𝓊 𝓈𝒶𝓁𝓂𝒶 ⋆</h2>
-    <img src="Asset/salmaa.jpeg" alt="Foto profil salmaa" class="salmaa"/>
-    <p>
-      saya adalah mahasiswa yang sedang belajar pengembangan web. <br />website
-      ini di buat untuk belajar HTML dan CSS
-    </p>
-    <p>
-      Di website ini anda dapat mengenal saya, melihat beberapa project, serta
-      mengubungi saya melalui halaman contact.
-    </p>
-    <h3 id="Yang sedang saya pelajatri">Yang sedang saya pelajari</h3>
-    <ul>
-      <li>HTML</li>
-      <li>Algoritma Pemograman</li>
-      <li>Basic Data</li>
-      <li>Github</li>
-    </ul>
-    <p>
-      silahkan kunjungi halaman <a href="About.html">About</a> untuk mengetahui profil saya lebih lengkap
-    </p>
-    <hr />
-    <p>&copy; 2026 Salma Ashilah. Dibuat menggunakan HTML.</p>
+  <body id="body-website">
+    <header id="header-utama">
+      <h1 id="judul-website">Personal Website</h1>
+      <p id="subjudul">Selamat datang, semoga bisa mengenal saya lebih dalam</p>
+
+      <nav id="navbar">
+        <div class="link-navbar">
+          <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Project.html">Project</a>
+          <a href="Contact.html">Contact</a>
+          <a href="history.html">History</a>
+        </div>
+      </nav>
+    </header>
+    <main id="isi-website">
+      <h2 id="halo-salma">✦ hallo, aku salma ✦</h2>
+
+      <div class="foto-container">
+        <img
+          id="foto-salma"
+          class="salmaa"
+          src="Asset/salmaa.jpeg"
+          alt="Foto profil Salma"
+        />
+      </div>
+
+      <p id="deskripsi-salma">
+        Halo, saya Salma Ashilah, mahasiswa yang sedang belajar pengembangan
+        web. Website ini dibuat sebagai latihan menggunakan HTML dan CSS.
+      </p>
+
+      <p id="deskripsi-website">
+        Melalui website ini Anda dapat mengenal saya, melihat beberapa project,
+        serta menghubungi saya melalui halaman yang tersedia.
+      </p>
+
+      <h3 id="judul-pelajaran">Yang sedang saya pelajari</h3>
+
+      <ul id="daftar-pelajaran">
+        <li>HTML</li>
+        <li>
+          Algoritma<br />
+          Pemrograman
+        </li>
+        <li>Basic Data</li>
+        <li>CSS</li>
+      </ul>
+
+      <p id="tentang-saya">
+        Silahkan kunjungi halaman About untuk mengetahui profil saya lebih
+        lengkap.
+      </p>
+    </main>
+    <footer id="footer-website">
+      <p>© 2026 Salma Ashilah. Dibuat menggunakan HTML & CSS.</p>
+    </footer>
   </body>
 </html>
